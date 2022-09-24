@@ -23,7 +23,7 @@ contract DataFeed {
     /**
      @dev returns the price of ethereum to usd
     */
-    function getEthPrice() public view returns (int $){
+    function getEth2USD() public view returns (int $){
         (
            ,
            int256 answer,
@@ -38,7 +38,7 @@ contract DataFeed {
     /**
      @dev returns the price of BTC to Ethereum
     */
-    function getBTC2ETH() public view returns (int $){
+    function getBTC2ETH() public view returns (int Eth){
         (
            ,
            int256 answer,
@@ -47,8 +47,8 @@ contract DataFeed {
            
         ) = BTC2ETH.latestRoundData();
         // scale down the answer by 10 ** 18 in order to get price in ETH
-        $ = answer / 1e18;
-        return $;
+        Eth = answer / 1e18;
+        return Eth;
     }
 
     /**
