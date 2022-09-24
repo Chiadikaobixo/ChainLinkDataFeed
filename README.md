@@ -1,5 +1,5 @@
 ## Chain Link Data Feed 
-Chainlink Data Feeds are the quickest way to connect your smart contracts to the real-world data. They act as bridges between blockchains and the external world. However it is important to note that the blockchain oracle is not itself the data source but its job is to query, verify and authenticate the outside data and then futher pass it to the smart contract. This contract uses the AggregatorV3Interface in the Chainlink Oracle to get the real-time market price of 
+Chainlink Data Feeds are the quickest way to connect your smart contracts to the real-world data. They act as bridges between blockchains and the external world. However it is important to note that the blockchain oracle is not itself the data source but its job is to query, verify and authenticate the outside data and then futher pass it to the smart contract. This contract uses the AggregatorV3Interface in the Chainlink Oracle to get the real-time market price of      
 ETH - USD     
 BTC - ETH    
 BTC - USD    
